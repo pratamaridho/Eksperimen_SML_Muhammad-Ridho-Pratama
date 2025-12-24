@@ -53,7 +53,7 @@ jobs:
     # 5. Jalankan script preprocessing yang telah dibuat sebelumnya
     # Pastikan file python Anda bernama 'process_data.py' dan ada di root repo
     - name: Run Preprocessing Script
-      run: python process_data.py
+      run: python auto.py
 
     # 6. Commit dan Push file CSV hasil cleaning kembali ke repo
     - name: Commit and Push Clean Data
